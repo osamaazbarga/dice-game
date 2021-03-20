@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import RollDice from './Components/RollDice/RollDice'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="pigdiv">
+      {/* <h1>DICE GAME</h1> */}
+      <div id="container">
+        <h1 className="GradientBorder">DICE GAME</h1>
+      </div>
+      <div className="RollDice"> 
+        <RollDice /> 
+      </div>
+    </div> 
   );
 }
 

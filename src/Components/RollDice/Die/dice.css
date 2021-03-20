@@ -1,0 +1,41 @@
+
+.dicepicdiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dice {
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin:5px;
+    
+  }
+  
+  .dice-1 {
+    background-image: url("./imgdice/dice-1.png");
+  }
+  
+  .dice-2 {
+    background-image: url("./imgdice/dice-2.png");
+  }
+  
+  .dice-3 {
+    background-image: url("./imgdice/dice-3.png");
+  }
+  
+  .dice-4 {
+    background-image: url("./imgdice/dice-4.png");
+  }
+  
+  .dice-5 {
+    background-image: url("./imgdice/dice-5.png");
+  }
+  
+  .dice-6 {
+    background-image: url("./imgdice/dice-6.png");
+  }
